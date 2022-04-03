@@ -1,0 +1,158 @@
+body{
+    background: rgb(245,245,245);
+    font-family: Verdana
+}
+.navbar{
+    color: white;
+}
+
+.form-control{
+    width: 500px;
+}
+.btn{
+    color: white;
+    background: rgb(246,139,30);
+}
+.checkout{
+    width: 600px;
+    margin-left: 30px;
+}
+.logo{
+    margin-left: 130px;
+}
+.div1{
+    height: 250vh;
+    background: white;
+    border-radius: 5px;
+    width:900px;
+    
+}
+.div2{
+    height: 40vh;
+    background: white;
+    border-radius: 5px;
+    width:300px;
+    position: fixed;
+    margin-left: 1200px;
+    
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin-right: 250px;
+}
+#amount{
+    float: right
+}
+.bottom{
+    font-weight: lighter;
+}
+.checkout{
+    width: 250px;
+}
+
+.description{
+    margin-top: 50px;
+    font-size: larger;
+}
+.remove-btn{
+    color: rgb(246,139,30);
+    border-radius: 5px;
+    border-color: rgb(246,139,30);
+    border-style: none;
+    margin-left: 340px;
+    margin-bottom: px;
+
+}
+.math{
+    color: white;
+    background-color: rgb(246,139,30);
+    border-radius: 5px;
+    border-style: none;
+    width: 35px;
+    height: 35px;
+    font-size: x-large;
+    margin-top: -50px;
+}
+.sub{
+    margin-left: 200px;
+}
+
+.adjust{
+    margin-top: -50px;
+}
+
+#heart{
+    border-radius: 5px;
+}
+#love{
+    color: blue;
+}
+
+
+    /* MEDIA QUERY */
+
+ @media screen and (max-width: 576px){
+     .div1{
+       margin-left: 300px;
+       height: 420vh;
+     }
+     .container{
+         max-width: 250px;
+     }
+    
+ }  
+ 
+ @media screen and (max-width: 768px){
+     .div2{
+         max-width: 200px;
+         margin-left: 1100px;
+     }
+     #amount{
+         float: left;
+     }
+     .checkout{
+         max-width: 150px;
+     }
+     .div1{
+         height: 325vh;
+     }
+}   
+
+@media screen and (max-width: 992px){
+     #delete{
+         margin-left: 200px;
+         margin-top: 40px;
+     }
+     #amount{
+        float: left;
+    }
+
+     .div1{
+         margin-right: 600px;
+         max-width: 500px;
+         height: 330vh;
+     }
+
+     .div2{
+         margin-right: 400px;
+     }
+     .math{
+         margin-top: 5px;
+     }
+     .container{
+         margin-right: 600px;
+         position: relative;
+     }
+     /* .form-control{
+         width: 300px;
+     }
+     .search{
+         margin-right: 200px;
+     } */
+     /* .navbar{
+         max-width: 400px;
+         background-color: white;
+     } */
+}  
